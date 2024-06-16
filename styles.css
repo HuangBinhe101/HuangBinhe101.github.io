@@ -1,14 +1,12 @@
-
 h1 {
     font-size: 3.5em;
     margin: 1vw 0;
 }
 
 
-
 /* Basic navigation bar styles */
 nav {
-    background-color: #2c3e50;
+    background-color: #45607c;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -50,12 +48,12 @@ nav a:hover,
 nav a:focus,
 nav .logo-link:hover,
 nav .logo-link:focus {
-    color: #18bc9c;
+    color: #5AA4A1;
 }
 
 /* Set the background color of the page */
 body {
-    background-color: #18bc9c;
+    background-color: #5AA4A1;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -74,6 +72,34 @@ body {
     text-align: center;
 }
 
+/* Center the content */
+table {
+    width: 65%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+th{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+
+}
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+td:last-child {
+    width: 60%;
+}
+table  a {
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+}
 /* Smooth scrolling behavior */
 html {
     scroll-behavior: smooth;
