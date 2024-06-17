@@ -48,12 +48,13 @@ nav a:hover,
 nav a:focus,
 nav .logo-link:hover,
 nav .logo-link:focus {
-    color: #5AA4A1;
+    color: #8BA3C7;
 }
+  
 
 /* Set the background color of the page */
 body {
-    background-color: #5AA4A1;
+    background-color: #8BA3C7;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -72,6 +73,11 @@ body {
     text-align: center;
 }
 
+.container p{
+    font-size: 1.2em;
+    margin-top: -5px;
+    font-weight: 500;
+}
 /* Center the content */
 table {
     width: 65%;
