@@ -54,7 +54,7 @@ nav .logo-link:focus {
 
 /* Set the background color of the page */
 body {
-    background-color: #8BA3C7;
+    background-color: #8BA3C7;  
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -78,14 +78,13 @@ body {
     margin-top: -5px;
     font-weight: 500;
 }
-/* Center the content */
-table {
+/* Table in Resources */
+table{
     width: 65%;
     margin: 0 auto;
     border-collapse: collapse;
     font-family: 'Montserrat', sans-serif;
 }
-  
 th{
     padding: 10px;
     text-align: center;
@@ -97,14 +96,23 @@ td {
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
-  
-td:last-child {
-    width: 60%;
-}
 table  a {
     text-decoration: none;
     color: white;
     font-weight:bold;
+}
+table a:hover {
+    text-decoration: underline;
+} 
+.tableResources td:last-child {
+    width: 60%;
+}
+
+.tableSeminars td:first-child {
+    width: 20%; /* 设置第一个单元格的宽度 */
+}
+.tableSeminars td:last-child {
+    width: 45%; /* 设置最后一个单元格的宽度 */
 }
 /* Smooth scrolling behavior */
 html {
