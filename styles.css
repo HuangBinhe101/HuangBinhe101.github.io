@@ -49,6 +49,7 @@ nav a:focus,
 nav .logo-link:hover,
 nav .logo-link:focus {
     color: #8BA3C7;
+    text-decoration: underline;
 }
 
 /* Set the background color of the page */
