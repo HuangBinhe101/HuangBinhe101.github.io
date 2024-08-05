@@ -109,7 +109,11 @@ table  a {
 }
 table a:hover {
     text-decoration: underline;
-} 
+}
+
+.tableResources td:first-child {
+    width: 10%;
+}
 .tableResources td:last-child {
     width: 60%;
 }
