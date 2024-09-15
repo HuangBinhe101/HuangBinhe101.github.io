@@ -106,10 +106,10 @@ table a:hover {
     text-decoration: underline;
 } 
 .temporary th:first-child{
-    width: 30%;
+    width: 25%;
 }   
 .temporary td:last-child{
-    width: 70%;
+    width: 75%;
 }
 /* Smooth scrolling behavior */
 html {
