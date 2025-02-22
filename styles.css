@@ -124,16 +124,17 @@ table a:hover {
 .tableSeminars td:last-child {
     width: 45%; /* 设置最后一个单元格的宽度 */
 }
-.tableTeaching td:first-child {
+.tableTeaching td {
     text-align: center;
+}
+.tableTeaching td:first-child {
     width: 30%; /* 设置第一个单元格的宽度 */
 }
 .tableTeaching td:last-child {
-    text-align: center;
     width: 45%; /* 设置最后一个单元格的宽度 */
 }
 .tableTeaching  table{
-    width: 50%;
+    width: 60%;
 }
 /* Smooth scrolling behavior */
 html {
